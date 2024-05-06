@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'account.apps.AccountConfig',
     'jalali_date',
     'users.apps.UsersConfig',
+    'bootstrapsidebar',
 ]
 
 
