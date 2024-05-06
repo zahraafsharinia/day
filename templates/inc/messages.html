@@ -1,0 +1,5 @@
+{% if messages %}
+    {% for msg in messages %}
+        <p class="alter alter-{{ msg.tags }}">{{ msg }}</p>
+    {% endfor %}
+{% endif %}
